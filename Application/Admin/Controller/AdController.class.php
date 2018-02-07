@@ -1,7 +1,9 @@
 <?php
 namespace Admin\Controller;
 class AdController extends CommonController {
-
+  public functin  chishi (){
+  	
+  }
     public function lst(){
         $ad=D('ad');
         $count= $ad->count();// 查询满足要求的总记录数
