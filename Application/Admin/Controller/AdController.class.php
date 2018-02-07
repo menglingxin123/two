@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 class AdController extends CommonController {
   public functin  chishi (){
-  	
+  	123456;
   }
     public function lst(){
         $ad=D('ad');
