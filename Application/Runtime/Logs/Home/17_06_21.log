@@ -1,0 +1,60 @@
+[ 2017-06-21T15:08:08+08:00 ] ::1 /shop/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-06-21T15:14:47+08:00 ] ::1 /shop/index.php/home/user/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sp_category` WHERE `type` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_article` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 5  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 6  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 7  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_nav` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `sp_nav`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_config` [ RunTime:0.0078s ]
+SQL: SELECT `enname`,`value` FROM `sp_config`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2017-06-21T15:15:42+08:00 ] ::1 /shop/index.php/home/user/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.1034s ]
+SQL: SELECT * FROM `sp_category` WHERE `type` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_article` [ RunTime:0.0873s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 5  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 2  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 7  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_nav` [ RunTime:0.0297s ]
+SQL: SELECT * FROM `sp_nav`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sp_config` [ RunTime:0.0122s ]
+SQL: SELECT `enname`,`value` FROM `sp_config`  [ RunTime:0.0049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002755s ]
+
+[ 2017-06-21T15:21:31+08:00 ] ::1 /shop/index.php/home/user/checklogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sp_category` WHERE `type` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_article` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 5  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_article` WHERE `cateid` = 7  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_nav` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sp_nav`  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `sp_config` [ RunTime:0.0058s ]
+SQL: SELECT `enname`,`value` FROM `sp_config`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
